@@ -8,7 +8,6 @@ const objectIsDeleted = (str) => str.includes('-')
 const objectReplaces = (str) => str.includes('=')
 
 const parseTriple = (subject, arr, object) => {
-  console.log(arr)
   let predicate = arr[1]
   let graph = ''
   switch (true) {
